@@ -3,7 +3,7 @@ import { Mail } from 'lucide-react';
 import { Send } from 'lucide-react';
 export function Contacts(){
     return (
-        <>
+        <address>
         <div id = "contactid" className="h-full w-full">
           
           <div className='bg-sky-600 text-white max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row items-center justify-center'>
@@ -34,6 +34,6 @@ export function Contacts(){
             </div>
         </div>
     
-        </>
+        </address>
       )
     }
