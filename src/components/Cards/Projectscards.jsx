@@ -8,9 +8,9 @@ export function Projectcards({images, names, description, desc, github, golive})
         </div>
         </div>
         <div>
-            <button className="text-dec border-none rounded-md p-1 mt-4 ml-16 sm:ml-12 text-white bg-[#ff9e1e]">
+            <button className="border-none rounded-md p-1 mt-4 ml-8 sm:ml-8 text-white bg-[#ff9e1e]">
                 <a href={github} style={{textDecoration: 'none', color: 'inherit'}}>Git Hub</a></button>
-            <button className="border-none rounded-md p-1 mt-4 ml-2 text-white bg-[#ff9e1e]">
+            <button className="border-none rounded-md p-1 mt-4 ml-8 sm:ml-8 text-white bg-[#ff9e1e]">
                 <a href={golive} style={{textDecoration: 'none', color: 'inherit'}}>Go Live</a></button>
         </div>
         
