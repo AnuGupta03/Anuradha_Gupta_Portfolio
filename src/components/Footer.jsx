@@ -2,8 +2,8 @@ import { Github, Twitter, Linkedin } from 'lucide-react'
 
 export function Footer() {
     return (
-        <footer className="h-40 w-full text-white bg-black flex flex-col items-center justify-start">
-            <div className="pt-2 text-center text-xl font-bold">Anuradha Gupta</div>
+        <footer className="h-60  w-full text-white bg-black flex flex-col items-center justify-start">
+            <div className="pt-2 mt-3 text-center text-xl font-bold">Anuradha Gupta</div>
             <div className='flex space-x-4 pt-4 pb-4'>
                 <a href="https://www.linkedin.com/in/anuradha-gupta-/">
                     <Linkedin />

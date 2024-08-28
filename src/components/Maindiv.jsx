@@ -1,11 +1,11 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 export function Maindiv(){
-    return <main className="h-screen flex">
+    return <main className="h-screen flex flex-col sm:flex-row">
         
-                <main className="h-full w-2/4 pl-10  bg-sky-600 text-white">
-                    <h1 className="p-6 mt-28  my-12 font-bold text-6xl">Hello, I'm
-                        <div className=" bg-sky-600 pt-5 font-bold ">
+                <main className="h-full w-full sm:w-2/4 pl-10  bg-sky-600 text-white flex flex-col justify-center items-start">
+                    <h1 className="ml-16 sm:ml-0 p-6 mt-16 sm:mt-28  my-12 font-bold text-4xl sm:text-6xl ">Hello, I'm
+                        <div className=" bg-sky-600 pt-5 font-bold -mt-10 sm:-mt-5 ">
 
                         <TypeAnimation
                                 sequence={[
@@ -25,15 +25,15 @@ export function Maindiv(){
                                 />
                         </div>
                     </h1>
-                    <article className='font-bold my-[-60px] p-7 text-xl'>Transforming ideas into seamless digital experiences with MERN Stack magic</article>
-                        <div className='m-8 mt-20 h-12 w-36 font-bold p-3 border-2 border-[#ffcd67] text-l text-center rounded-2xl  hover:bg-[#ff9e1e]'>
-                                    <a href="https://github.com/AnuGupta03/MyCV/blob/main/Anuradha_Resume.pdf">Download CV</a>
+                    <article className='font-bold my-[-90px] sm:my-[-60px] p-7 text-xl'>Transforming ideas into seamless digital experiences with MERN Stack magic</article>
+                        <div className=' mt-20 sm:mt-16 ml-32 sm:ml-8 mb-8 sm:mb-0  h-12 w-36 font-bold p-2 border-2 border-[#ffcd67]  text-center sm:text rounded-2xl  hover:bg-[#ff9e1e]'>
+                                    <a href="https://github.com/AnuGupta03/MyCV/blob/main/Anuradha_Resume.pdf" style={{ textDecoration: 'none', color: 'inherit'}}>Download CV</a>
                         </div>
                 </main>
 
-                <section className="w-2/4 h-full bg-sky-600 flex justify-center items-center">
-                    <div className="border-[30px] text-white w-86 h-96 bg-whitey rounded-full overflow-hidden">
-                        <img src="https://nextjs-portfolio-mu-tawny.vercel.app/_next/image?url=https%3A%2F%2Fsbinnovations.in%2Fimages%2Fweb.gif&w=384&q=75" alt="CV For FrontEnd, Backend And FullStack Developer. Technology: HTML, CSS, Javascript, React, TailwindCSS, CSS. " className="w-full h-full object-cover"/>
+                <section className="w-full sm:w-2/4 h-full bg-sky-600 flex justify-center items-center">
+                    <div className="ml-2 sm:ml-0 border-[30px] text-white w-80 sm:w-96 h-80 sm:h-96  bg-whitey rounded-full overflow-hidden">
+                        <img src="https://nextjs-portfolio-mu-tawny.vercel.app/_next/image?url=https%3A%2F%2Fsbinnovations.in%2Fimages%2Fweb.gif&w=384&q=75" alt="CV For FrontEnd, Backend And FullStack Developer. Technology: HTML, CSS, Javascript, React, TailwindCSS, CSS. " className="w-52 sm:w-full h-80 sm:h-full object-cover"/>
                     </div>
                 </section>
         </main>    
