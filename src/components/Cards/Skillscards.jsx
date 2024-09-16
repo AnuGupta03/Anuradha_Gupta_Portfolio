@@ -1,5 +1,5 @@
 export function Skillcards({image, name}){
-    return <div className="w-16 rounded-md border-2 border-orange-500">
+    return <div className="mx-auto w-16 rounded-md border-2 border-orange-500">
         <div className="rounded-t-md p-2 bg-slate-950">
             <img className="hover:scale-125 transition-all duration-500" width={50} src={`${image}`}/>
         </div>

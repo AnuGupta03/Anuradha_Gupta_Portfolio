@@ -6,7 +6,7 @@ export function Aboutus(){
                 <div className="pt-2 text-sl font-bold text-white">I'm a FrontEnd Developer I Have more then 1.5years of experience in Technical Field. Proficiency in JavaScript, HTML, CSS, and Git. Learning React, Redux, Node.js, Express.js, Next.js. I bring a comprehensive skill set to the development landscape. My commitment to continual learning is evidenced by my quick adaptability and eagerness to broaden my knowledge base. Recognized as a dedicated team player, I am enthusiastic about collaborative efforts to conceive and deliver exceptional applications. My professional approach and passion for web development fuel my commitment to contributing meaningfully to collaborative projects I collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!</div>
                 
                 <div className="text-4xl font-bold text-white flex justify-center sm:justify-start mt-16">Skills</div>
-                <div className="mt-8 grid grid-cols-4 md:grid-cols-7 lg:grid-cols-10">
+                <div className="mt-8 grid grid-cols-4 md:grid-cols-7 lg:grid-cols-10 gap-4">
                     <Skillcards image="https://cdn-icons-png.flaticon.com/512/174/174854.png" name="HTML"/>
                     <Skillcards image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" name="CSS"/>
                     <Skillcards image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" name="Javascript"/>
