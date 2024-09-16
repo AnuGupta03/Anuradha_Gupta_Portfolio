@@ -41,38 +41,38 @@ export function Contacts() {
       <div id="contactid" className="h-full w-full flex flex-col items-center justify-center">
         <div className="bg-sky-600 text-white w-full flex justify-center items-center py-10 px-4 md:px-20">
           <div className="w-full max-w-md md:max-w-lg lg:max-w-xl">
-            <form autoComplete="off" className="form-group w-full" onSubmit={handleSubmit}>
+            <form autoComplete="off" className="form-group w-full flex flex-col gap-3" onSubmit={handleSubmit}>
               <h1 className="text-2xl md:text-4xl text-center">Contact Form</h1>
 
-              <div className="flex items-center gap-2 mb-7 mt-5">
-                <User className="h-8 w-6 opacity-70" />
+              <div className="flex items-center gap-2 bg-white rounded p-2">
+                <User className="h-8 w-6 opacity-70 stroke-black" />
                 <input
                   type="text"
                   name="your-name"
-                  className="h-8 w-full text-black px-5"
+                  className="w-full text-black bg-transparent outline-none"
                   placeholder="Your Name"
                   onChange={(e) => setName(e.target.value)}
                   value={name}
                 />
               </div>
 
-              <div className="flex items-center gap-2 mb-7 mt-5">
-                <Mail className="h-8 w-6 opacity-70" />
+              <div className="flex items-center gap-2 bg-white rounded p-2">
+                <Mail className="h-8 w-6 opacity-70 stroke-black" />
                 <input
                   type="email"
                   name="your-mail"
-                  className="h-8 w-full text-black px-5"
+                  className="w-full text-black bg-transparent outline-none"
                   placeholder="Your Email"
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                 />
               </div>
 
-              <div className="flex items-center gap-2 mb-4 mt-5">
-                <Send className="h-8 w-6 opacity-70" />
+              <div className="flex items-start gap-2 bg-white rounded p-2">
+                <Send className="h-8 w-6 opacity-70 stroke-black" />
                 <textarea
                   name="your-message"
-                  className="h-20 w-full text-black px-5"
+                  className="h-20 w-full text-black bg-transparent outline-none"
                   placeholder="Your Message"
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
@@ -80,7 +80,7 @@ export function Contacts() {
               </div>
 
               <div className="flex justify-center">
-                <button type="submit" className="bg-[#ff9e1e] py-2 px-8 rounded">
+                <button type="submit" className="bg-[#ff9e1e] py-2 px-8 rounded w-full">
                   Send
                 </button>
               </div>

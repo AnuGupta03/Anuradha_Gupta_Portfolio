@@ -8,10 +8,8 @@ import { Contacts } from './components/Contacts'
 import { Footer } from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
+    <div className="bg-sky-600">
       <Navbar/>
       <Maindiv/>
       <Aboutus/>
