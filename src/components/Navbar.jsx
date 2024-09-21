@@ -8,9 +8,9 @@ export function Navbar() {
     };
 
     return (
-        <div id="Homeid">
+        <div id="Homeid" className="">
             <div className="shadow-md fixed top-0 z-50 w-full bg-sky-600 text-white hover:shadow-lg hover:shadow-[#ffcd67] transition-all duration-500">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Left - Brand Name */}
                         <h1 className="text-xl font-bold">Anuradha Gupta</h1>
@@ -43,8 +43,8 @@ export function Navbar() {
 
                 {/* Mobile menu popup */}
                 {isMenuOpen && (
-                    <div className="fixed top-0 left-0 w-full h-full bg-opacity-50 z-40 flex justify-center items-center">
-                        <div className="bg-sky-600 p-6 rounded-2xl shadow-xl transition-all duration-500">
+                    <div className="fixed top-16 right-0 bg-opacity-50 z-40 flex justify-center items-center rounded-b-2xl overflow-hidden shadow-lg">
+                        <div className="bg-sky-600 p-6 shadow-xl transition-all duration-500">
                             <ul className="flex flex-col items-center space-y-8">
                                 <li>
                                     <a href="#Homeid" onClick={toggleMenu} className="text-white no-underline text-2xl">Home</a>
